@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #F8C8DC;
+    background: url("stupide.gif") no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+}
+

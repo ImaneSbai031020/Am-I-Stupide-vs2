@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #F8C8DC;
+    background: url("jsadhasj.gif") no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+}
+
+.Headtext {
+    
+    top: 8px;
+    right: 16px;
+    text-align: center;
+    padding-left: 100px;
+    margin-bottom: 30rem;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.container{
+    margin-top: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+}
